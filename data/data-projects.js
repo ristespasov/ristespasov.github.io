@@ -18,7 +18,7 @@ var dataProjects = [
     {
         image: "../assets/projects/fastburger.png",
         name: "FastBurger",
-        description: "FastBurger allows users to order burgers with ingredients of their choice while authenticated. It also allows users to see the history of their ordering. Contains form that must be filled before receiving the order.",
+        description: "FastBurger allows users to order burgers with ingredients of their choice while authenticated. It also allows them to see the history of their ordering. Contains form that must be filled before receiving the order.",
         technologies: "React.js, CSS3, Firebase",
         ghLink: "https://github.com/ristespasov/FastBurger",
         liveLink: "https://burger-app-5e595.firebaseapp.com/",
