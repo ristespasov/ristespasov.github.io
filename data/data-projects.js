@@ -1,7 +1,7 @@
 var dataProjects = [
     {
         image: "../assets/projects/blog.png",
-        name: "Weather & Air check",
+        name: "BlogApp",
         description: "Blog web app developed as a final project for Harvard's CS50 course. Users can create accounts, reset passwords, write/update/delete blogs, update their profiles, read other user's posts, navigate through pages, etc.",
         technologies: "Django, SQL, Bootstrap 4",
         ghLink: "https://github.com/ristespasov/BlogApp",

@@ -25,7 +25,7 @@ var dataSkills = {
             name: "jQuery",
         },
         {
-            icon: "../assets/skills/ts.png",
+            icon: "../assets/skills/ts.PNG",
             name: "TypeScript",
         },
         {
