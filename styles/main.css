@@ -1,0 +1,256 @@
+/* General */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 64px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #343a40;
+}
+
+h3 {
+    font-weight: 900;
+}
+
+.social-icons {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.social-icons ion-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    color: white;
+}
+
+.social-icons ion-icon:hover {
+  color: orange;
+}
+
+/* Scrollbar */
+*::-webkit-scrollbar {
+    width: 13px;
+}
+ 
+*::-webkit-scrollbar-track, .project-description::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px #343a40;
+    -webkit-box-shadow: inset 0 0 6px #343a40; 
+    border-radius: 13px;
+}
+ 
+*::-webkit-scrollbar-thumb {
+    border-radius: 13px;
+    box-shadow: inset 0 0 6px #343a40;
+    -webkit-box-shadow: inset 0 0 6px #343a40; 
+    background-color: #292929;
+}
+
+/* Navbar */
+.navbar {
+    height: 64px;
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.scrolled {
+    background-color: #343a40 !important;
+}
+
+.navbar-toggler {
+    border-color: white !important;
+    border: none;
+    padding: 0;
+}
+
+.navbar-toggler ion-icon {
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+}
+
+.navbar-brand {
+    font-size: 26px;
+    color: orange !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.nav-item .nav-link:hover, .nav-item .nav-link:focus {
+  color: orange !important;
+}
+
+.active {
+    color: orange !important;
+    border-bottom: solid 2px orange;
+}
+
+/* Header */
+#home {
+    background: url('../assets/backgrounds/01.jpg') no-repeat fixed center / cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    color: white;
+}
+
+#home h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#home p {
+    font-size: 18px;
+}
+
+.typing {
+    color: orange;
+}
+
+#home .button {
+    background-color: transparent;
+    border: 2px solid orange;
+    border-radius: 30px;
+    font-weight: bold;
+    color: orange;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 150;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+#home .button:hover {
+    background-color: #343a40;
+    border: 2px solid #343a40;
+    color: white;
+    transition: 0.6s;
+    opacity: 1;
+}
+
+#home .button:focus {
+    outline: none;
+}
+
+/* About */
+#about {
+    background-color: #fefed3;
+}
+
+#about h3 {
+    font-weight: normal;
+    color: orange;
+}
+
+/* Skills */
+#primary img, #secondary img {
+    width: 45px;
+    height: 45px;
+}
+
+/* Service */
+.service {
+    border: 3px solid transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+#srv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service {
+    width: 30%;
+}
+
+.service p {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* Projects */
+.project a {
+    border: 2px solid #343a40;
+    border-radius: 25px;
+    padding: 4px 8px;
+    text-decoration: none;
+    color: #343a40;
+}
+
+.project a:hover {
+    background-color: #343a40;
+    color: white;
+    transition: 0.6s;
+    opacity: 1;
+}
+
+/* Contact */
+.contact-form form input {
+    height: 50px;
+    border-radius: 0;
+    margin-bottom: 26px;
+}
+
+.contact-form form textarea {
+    min-height: 100px;
+    border-radius: 0;
+    margin-bottom: 26px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-send {
+    background-color: white;
+    border: 2px solid #343a40;
+    border-radius: 30px;
+    padding: 6px 12px;
+    color: #343a40;
+}
+
+.btn-send:hover {
+    background-color: #343a40;
+    color: white;
+    transition: 0.6s;
+    opacity: 1;
+}
+
+.btn-send:focus {
+    outline: none;
+}
+
+.warning {
+    color:#bc0000;
+}
+
+.success {
+    color: #008945;
+}
+
+/* Footer */
+#footer {
+    width: 100%;
+    height: auto;
+    background-color: #939393;
+    color: white;
+}
