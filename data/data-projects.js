@@ -29,6 +29,6 @@ var dataProjects = [
         description: "An app with a responsive web design that renders great on a variety of devices and window or screen sizes. It provides data for current weather conditions, forecast and air quality index. Contains an auto location finder and allows a custom search.",
         technologies: "React.js, CSS3, React Bootstrap 4",
         ghLink: "https://github.com/ristespasov/Weather-Air-check",
-        liveLink: "",
+        liveLink: "https://competent-elion-075159.netlify.app/",
     }
 ]
