@@ -150,16 +150,6 @@ h3 {
     outline: none;
 }
 
-/* About */
-#about {
-    background-color: #F5F5DC;
-}
-
-#about h3 {
-    font-weight: normal;
-    color: orange;
-}
-
 /* Skills */
 #primary img, #secondary img {
     width: 45px;
